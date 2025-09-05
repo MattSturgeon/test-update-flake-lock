@@ -18,5 +18,3 @@ jobs:
         uses: DeterminateSystems/flake-checker-action@main
       - name: Update flake.lock
         uses: MattSturgeon/update-flake-lock@no-commit-msg-default
-        with:
-          commit-msg: custom commit-msg gha input
