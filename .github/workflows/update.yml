@@ -17,4 +17,4 @@ jobs:
       - name: Check flake
         uses: DeterminateSystems/flake-checker-action@main
       - name: Update flake.lock
-        uses: DeterminateSystems/update-flake-lock@main
+        uses: MattSturgeon/update-flake-lock@no-commit-msg-default
