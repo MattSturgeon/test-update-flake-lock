@@ -1,6 +1,8 @@
 {
   description = "test";
 
+  nixConfig.commit-lock-file-summary = "testing 123: custom summary";
+
   inputs = {
     nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.1.533189.tar.gz";
   };
